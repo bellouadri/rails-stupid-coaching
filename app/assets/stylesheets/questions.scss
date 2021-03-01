@@ -1,0 +1,46 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.interaction-question {
+  // background: rgba(10, 10, 10, 0.1);
+  border-left: 3px solid rgba(10, 10, 10, 0.5)
+}
+
+.interaction-answer {
+  background: rgba(100, 100, 20, 0.2);
+  border-left: 3px solid rgba(10, 10, 10, 0.5)
+}
+
+form {
+  display: flex;
+}
+
+.form-input {
+  flex-grow: 1;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+#form-submit {
+  background: rgba(100, 20, 200, 0.1);
+  width: 60px;
+  border-radius: 4px;
+}
+
+.internal-link {
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 4px;
+    background: rgba(10, 10, 10, 0.1);
+    width: 90px;
+    text-align: center;
+  }
+  a:hover {
+    font-weight: bolder;
+  }
+}
